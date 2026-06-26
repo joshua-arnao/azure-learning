@@ -1,11 +1,5 @@
 
 
-| ÁREA  DE DOMINIO AZ-900                                 | PESO |
-|:--------------------------------------------------------|:-----|
-| Descripción de los conceptos de la nube                 | 25-30%|
-| Descripción de la arquitectura y los servicios de Azure | 35-40% |
-| Descripción de la administración y gobernanza de Azure  | 30-35% |
-
 ## Descripción de los conceptos de la nube
 - Definir la informática en la nube.
 - Describir el modelo de responsabilidad compartida.
