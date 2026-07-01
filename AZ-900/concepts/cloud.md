@@ -22,7 +22,9 @@ También amplían las ofertas de TI tradicionales para incluir:
 - Inteligencía Artifical (IA)
 
 
-
+## Modelos de Nube
+### Nube privada
+Entorno de nube que usa sola entidad. La nube privdada proporciona un control mucho mayor para el equipo de TI. Sin embargo, tambien incluye un mayor costo y menos ventajas que una implentación en la nube pública 
 
 
 
