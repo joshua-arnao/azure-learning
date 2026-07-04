@@ -1,5 +1,7 @@
 
 ## VERSION DE GIT
+cuando va con un guión(-) es porque irá con la abreviación(1 o 2 letras)
+
 ```bash
 git --version
 ```
@@ -7,11 +9,15 @@ git --version
 
 ## AYUDA DE GIT
 
+
 ```bash
 git help
+git -h
+# Documentación de un comando en especifico
+git help [comando]
 ```
 
-## CONFIGURACIÓN DE GIT
+## CONFIGURACIÓN GLOBAL EN GIT
 
 - Registrar usuario y correo
     ```bash
@@ -22,6 +28,7 @@ git help
     ```bash
     git config user.name
     git config user.email
+    git config --global --list
     ```
 
 - Abrir archivo de configuración global de Git y edita
@@ -29,13 +36,19 @@ git help
     ```bash
     git config --global -e
     ```
+  
+## INCIALIZAR UN PROYECTO
+```bash
+git config user.name
+```
 
 - configuración global de la rama por defecto
     ```bash
     git config --global init.defaultBranch <name>
     ```
 
-## SEGUMIENTO
+## SEGUMIENTO *
+Muestra el estado del árbol de trabajo y del área de ensayo (también conocido como índice). Te permite inspeccionar archivos modificados, preparados y sin rastrear para que decidas qué hacer a continuación.
 
 ```bash
 git status
@@ -113,6 +126,7 @@ git branch -vv
 
 
 ## AGREGAR ARCHIVOS AL ESCENARIO
+Para agregar contenido de archivos al área de almacenamiento provisional.
 ```bash
 git add <field-name1> <field-name2>
 
@@ -130,3 +144,8 @@ git diff
 
 git diff -stage
 ```
+
+Después de haber preparado algunos cambios para su confirmación, puede guardar el trabajo en una instantánea ejecutando el comando
+
+
+ermite ver información sobre las confirmaciones anteriores. Cada confirmación tiene un mensaje adjunto (un mensaje de confirmación), y el comando git log permite imprimir información sobre las confirmaciones más recientes, como su marca de tiempo, el autor y un mensaje de confirmación
