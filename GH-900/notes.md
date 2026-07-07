@@ -101,11 +101,11 @@ Git necesita saber, en todo momento, en que "fase" de confirmación esta cada ar
 ### LAS 3 ÁREAS DE GIT
 Estas 3 zonas son literalmente los "lugares físicos" donde viven los archivos según su estado:
 
-| Zona                           | Qué contiene                                                                          |
-|:-------------------------------|:--------------------------------------------------------------------------------------|
-| Área de trabajo / Working Tree | Los archivos tal cual los ves y editas en tu carpeta del proyecto.                    |
+| Zona                               | Qué contiene                                                                          |
+|:-----------------------------------|:--------------------------------------------------------------------------------------|
+| Área de trabajo / Working Area     | Los archivos tal cual los ves y editas en tu carpeta del proyecto.                    |
 | Área de preparación / Staging Area | Una "sala de espera" antes del commit. Aquí llegan los archivos cuando haces `git add` |
-| Repositorio / Repository |  El historial permanente. Aquí llegan los archivos cuando haces `git commit` |
+| Repositorio / Repository           |  El historial permanente. Aquí llegan los archivos cuando haces `git commit` |
 
 #### FLUJO COMPLETO:
 
@@ -115,3 +115,7 @@ Estas 3 zonas son literalmente los "lugares físicos" donde viven los archivos s
 |   (Modified)    |                 |   (Staged)   |                   | (Committed)|
 -------------------                 ----------------                   --------------
 ```
+
+U: Untracked - Sin seguimiento
+A: Stage Area
+

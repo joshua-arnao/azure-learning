@@ -135,6 +135,9 @@ git add *.html
 
 # staging todos los archivos dentro de una carpeta
 git add <name-field>/*.gitkeep
+
+# Todo lo que se modifico  en el working area pasara al Staging area
+git add .
 ```
 
 ## CAMBIOS EN LOS ARCHIVOS
@@ -143,6 +146,15 @@ git add <name-field>/*.gitkeep
 git diff
 
 git diff -stage
+```
+
+
+```bash
+git commit -m "[message]"
+```
+
+```bash
+git checkout --."
 ```
 
 Después de haber preparado algunos cambios para su confirmación, puede guardar el trabajo en una instantánea ejecutando el comando
