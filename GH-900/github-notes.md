@@ -46,5 +46,22 @@ Los repositorio remotos son versiones de un proyecto alojado en línea, permitie
 
 ## CONCEPTOS FUNDAMENTALES DE GITHUB
 
-### 
+### COMMIT Y SNAPSHOT
+En GIT, un commit es la acción de guardar cambios en un repositorio y cada commit crea un snapshot(instantánea) del proyecto en ese momento. Los commits permiten realizar un seguimiento histórico de modificaciones y revertir a versiones anteriores si es necesario.
 
+### RAMIFICACIÓN(BRANCHING) Y FUSIÓN MERGING
+La ramificación(branching) en GIT permite **crear** ramas de desarrollo independientes, llamadas ramas, mientras que la fusión (merging) **une** cambios de una rama a otra. Estas funciones facilitan el desarrollo paralelo y la integración de nuevas características.
+
+### COLABORACIÓN Y CLONACIÓN
+La clonación en GIT es la creación de una copia exacta de un repositorio permitiendo a los desarrolladores trabajar localmente. la colaboración se facilita al sincronizar cambios mediante `push` y `pull` entre el repositorio clonado y el original.
+
+## IMPORTANCIA DE CONTROLES DE VERSIÓN
+
+### EVOLUCIÓN DEL CÓDIGO FUENTE
+La importancia del control de versiones radica en la gestion efectiva de la evolución de código fuente. Permite un seguimiento preciso de los cambios, facilitando la colaboración, reduciendo errores y respaldando la mejora continua del software.
+ 
+## RESPALDO Y RECUPERACIÓN
+La importancia del control de versiones se refleja en su capacidad para proporcionar respaldo y recuperación eficiente. Permite revertir cambios no deseados, grantizando la integridad y disponibilidad del código fuente.
+
+## MEJORA CONTINUA Y RASTREO DE PROBLEMAS
+La importancia del control de versiones rádica en su contribución a la mejora continua y al rastrea efectivo de probelmas. Facilita la identificación y corrección ágil de errores, promoviendo un desarrollo de software mas eficiente y robusto.
