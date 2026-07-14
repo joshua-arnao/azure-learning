@@ -20,3 +20,31 @@ GitHub integra la seguridad directamente en el proceso de desarrollo desde el pr
 
 ### Escala
 En esencia, la plataforma GitHub Enterprise se centra en la experiencia del desarrollador. Proporciona herramientas de colaboración, automatización y funciones impulsadas por IA que respaldan la productividad, la seguridad y la escalabilidad en una experiencia de desarrollo unificada.
+
+---
+
+## CARACTERÍSTICAS CLAVE
+- Control de versiones con git
+- Colaboración eficiente
+- Gestión de proyectos
+- CI/CD
+- Accesos a repositorios públicos o privados.
+- Comunidad y red social para desarrolladores
+- Estadísticas y analíticas
+- Seguridad del código
+
+## REPOSITORIO DE GIT
+Un repotirio en GIT es un espacio virtual que almacena y gestiona versiones de un proyecto de software. Permite a los desarrolladores de cambios y facilita la integración continua en el desarrollo.
+
+## TIPOS DE REPOSITORIO
+- Público
+- Privado
+- Bifurcación (FORKS)
+
+## REPOSITORIOS REMOTOS Y COLABORACIÓN
+Los repositorio remotos son versiones de un proyecto alojado en línea, permitiendo la colaboración entre desarrolladores. Facilitan el seguimiento de cambios, la sincronización y la contribución conjunta de código fuente.
+
+## CONCEPTOS FUNDAMENTALES DE GITHUB
+
+### 
+
