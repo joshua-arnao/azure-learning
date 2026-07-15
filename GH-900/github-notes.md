@@ -60,8 +60,13 @@ La clonación en GIT es la creación de una copia exacta de un repositorio permi
 ### EVOLUCIÓN DEL CÓDIGO FUENTE
 La importancia del control de versiones radica en la gestion efectiva de la evolución de código fuente. Permite un seguimiento preciso de los cambios, facilitando la colaboración, reduciendo errores y respaldando la mejora continua del software.
  
-## RESPALDO Y RECUPERACIÓN
+### RESPALDO Y RECUPERACIÓN
 La importancia del control de versiones se refleja en su capacidad para proporcionar respaldo y recuperación eficiente. Permite revertir cambios no deseados, grantizando la integridad y disponibilidad del código fuente.
 
-## MEJORA CONTINUA Y RASTREO DE PROBLEMAS
+### MEJORA CONTINUA Y RASTREO DE PROBLEMAS
 La importancia del control de versiones rádica en su contribución a la mejora continua y al rastrea efectivo de probelmas. Facilita la identificación y corrección ágil de errores, promoviendo un desarrollo de software mas eficiente y robusto.
+
+## IMPORTANCIA EN EL DESARROLLO ACTUAL
+
+### AGILIDAD Y DESARROLLO ITERATIVO
+La agilidad y el desarrollo iterativo son pilares esenciales en el desarrollo de software moderno, permitiendo la adaptación rápida a cambios, entre incremantal mejora continua.
