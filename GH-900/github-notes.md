@@ -70,3 +70,5 @@ La importancia del control de versiones rádica en su contribución a la mejora 
 
 ### AGILIDAD Y DESARROLLO ITERATIVO
 La agilidad y el desarrollo iterativo son pilares esenciales en el desarrollo de software moderno, permitiendo la adaptación rápida a cambios, entre incremantal mejora continua.
+
+
