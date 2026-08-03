@@ -21,6 +21,7 @@ GitHub integra la seguridad directamente en el proceso de desarrollo desde el pr
 ### Escala
 En esencia, la plataforma GitHub Enterprise se centra en la experiencia del desarrollador. Proporciona herramientas de colaboración, automatización y funciones impulsadas por IA que respaldan la productividad, la seguridad y la escalabilidad en una experiencia de desarrollo unificada.
 
+<<<<<<< HEAD
 ---
 
 ## CARACTERÍSTICAS CLAVE
@@ -72,3 +73,21 @@ La importancia del control de versiones rádica en su contribución a la mejora 
 La agilidad y el desarrollo iterativo son pilares esenciales en el desarrollo de software moderno, permitiendo la adaptación rápida a cambios, entre incremantal mejora continua.
 
 
+=======
+## INTRODUCCIÓN A LOS REPOSITORIOS
+### Qué es un repositorio?
+Contiene todos los archivos de tu proyecto y el historial de revisiones de cada uno de ellos. Puede utilizar repositorios para administrar el trabajo, realziar un seguimiento de los cambios, almacenar el historial de revisiones y trabajar con otras personas.
+
+### Creación de un repositorio
+1. Ir a [GitHub](https://github.com/)
+2. En la esquina superior derecha utilice el menú desplegable y seleccione **Nuevo repositorio**
+3. Use el menú desplegable **Propietario** para seleccionar la cuenta que será propietaria.
+4. Escribe el nombre del repositorio y una descripción opcional.
+5. Elige la visibilidad del repositorio:
+   - Los **repositorios públicos** son accesibles para todo el mundo en internet.
+   - Los *repositorios privados** solo pueden acceder el propietario y las personas con las que se comparta explícitamente el acceso y, en el caso de los repositorios de organizaciones, determinados miembros de la organización.
+6. Seleccionar **Crear repositorio**.
+
+### Clonar un repostorio
+La clonación de un repositorio permite crear una copia local de un repositorio. Esto es útil 
+>>>>>>> fd0cbce (update gh-900)
