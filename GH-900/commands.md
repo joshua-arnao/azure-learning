@@ -139,7 +139,12 @@
 | `git switch <rama>`             | Comando moderno para cambiar de rama (reemplaza a `checkout` para este uso).                              |
 | `git merge <rama>`              | Integra el historial de `<rama>` dentro de la rama activa actual.                                         |
 
+<<<<<<< HEAD
 ### Tabla de flags — `git branch`
+=======
+# Lista las ramas que tienen código nuevo que aún no has fusionado
+1
+>>>>>>> 36035e5 (update)
 
 | Corta | Larga | Significado | ¿Se puede forzar? |
 |---|---|---|---|
