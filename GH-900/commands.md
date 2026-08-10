@@ -4,38 +4,38 @@
 
 ## 1. Configuración y Setup
 
-| Comando | Qué hace |
-|---|---|
-| `git --version` | Muestra la versión de Git instalada. |
-| `git help` / `git -h` | Ayuda general de Git. |
-| `git help [comando]` | Documentación de un comando específico. |
-| `git config --global user.name "[name]"` | Registra el nombre del autor para tus commits (global). |
-| `git config --global user.email "[email]"` | Registra el correo del autor para tus commits (global). |
-| `git config user.name` / `git config user.email` | Consulta el usuario/correo configurado. |
-| `git config --global --list` | Lista toda la configuración global activa. |
-| `git config --global -e` | Abre el archivo de configuración global para editarlo directamente. |
-| `git config --global init.defaultBranch <name>` | Define el nombre de rama por defecto (ej. `main`) para nuevos repos. |
-| `git init` | Inicializa un repositorio Git vacío, creando la carpeta oculta `.git`. |
-| `git clone <url>` | Copia un repositorio remoto completo (con todo su historial) a tu máquina local. |
+| Comando                                          | Qué hace                                                                         |
+|:-------------------------------------------------|:---------------------------------------------------------------------------------|
+| `git --version`                                  | Muestra la versión de Git instalada.                                             |
+| `git help` / `git -h`                            | Ayuda general de Git.                                                            |
+| `git help [comando]`                             | Documentación de un comando específico.                                          |
+| `git config --global user.name "[name]"`         | Registra el nombre del autor para tus commits (global).                          |
+| `git config --global user.email "[email]"`       | Registra el correo del autor para tus commits (global).                          |
+| `git config user.name` / `git config user.email` | Consulta el usuario/correo configurado.                                          |
+| `git config --global --list`                     | Lista toda la configuración global activa.                                       |
+| `git config --global -e`                         | Abre el archivo de configuración global para editarlo directamente.              |
+| `git config --global init.defaultBranch <name>`  | Define el nombre de rama por defecto (ej. `main`) para nuevos repos.             |
+| `git init`                                       | Inicializa un repositorio Git vacío, creando la carpeta oculta `.git`.           |
+| `git clone <url>`                                | Copia un repositorio remoto completo (con todo su historial) a tu máquina local. |
 
 ---
 
 ## 2. Inspección de Estado (Seguimiento)
 
-| Comando | Qué hace |
-|---|---|
-| `git status` | Diagnóstico de las 3 zonas: qué está *modified*, *staged* y *untracked*. Es tu punto de partida antes de cualquier decisión. |
-| `git log` | Bitácora cronológica de commits: hash, autor, fecha, mensaje. Solo muestra commits **alcanzables** desde HEAD (ver sección 7). |
-| `git log --oneline` | Igual que `git log`, pero comprimido a una línea por commit (hash corto + mensaje). |
-| `git log --oneline --merges` | Filtra el historial para ver únicamente los commits de fusión (merges). |
-| `git diff` | Muestra las diferencias línea por línea entre Working Directory y Staging Area (cambios *unstaged*). |
-| `git diff --staged` | Muestra las diferencias entre Staging Area y el último commit (cambios ya *staged*, pendientes de commit). |
-| `git blame <archivo>` | Desglosa un archivo línea por línea, indicando autor y commit responsable de cada línea. |
-| `git show <commit_id>` | Muestra el contenido completo y metadata de un commit específico. Ideal para inspeccionar hashes recuperados con `git reflog`. |
+| Comando                      | Qué hace                                                                                                                       |
+|:-----------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+| `git status`                 | Diagnóstico de las 3 zonas: qué está *modified*, *staged* y *untracked*. Es tu punto de partida antes de cualquier decisión.   |
+| `git log`                    | Bitácora cronológica de commits: hash, autor, fecha, mensaje. Solo muestra commits **alcanzables** desde HEAD (ver sección 7). |
+| `git log --oneline`          | Igual que `git log`, pero comprimido a una línea por commit (hash corto + mensaje).                                            |
+| `git log --oneline --merges` | Filtra el historial para ver únicamente los commits de fusión (merges).                                                        |
+| `git diff`                   | Muestra las diferencias línea por línea entre Working Directory y Staging Area (cambios *unstaged*).                           |
+| `git diff --staged`          | Muestra las diferencias entre Staging Area y el último commit (cambios ya *staged*, pendientes de commit).                     |
+| `git blame <archivo>`        | Desglosa un archivo línea por línea, indicando autor y commit responsable de cada línea.                                       |
+| `git show <commit_id>`       | Muestra el contenido completo y metadata de un commit específico. Ideal para inspeccionar hashes recuperados con `git reflog`. |
 
 ---
 
-## 3. Las 3 Zonas de Git (recordatorio conceptual)
+## 3. Las 3 Zonas de Git
 
 ```
 ------------------                  ----------------                   -------------
@@ -44,11 +44,11 @@
 -------------------                 ----------------                   --------------
 ```
 
-| Zona | Contiene |
-|---|---|
-| **Working Directory** | Archivos tal cual los editas en tu carpeta local. |
+| Zona                     | Contiene                                                         |
+|:-------------------------|:-----------------------------------------------------------------|
+| **Working Directory**    | Archivos tal cual los editas en tu carpeta local.                |
 | **Staging Area / Index** | Sala de espera antes del commit — lo que marcaste con `git add`. |
-| **Repository (.git)** | Historial permanente — lo que confirmaste con `git commit`. |
+| **Repository (.git)**    | Historial permanente — lo que confirmaste con `git commit`.      |
 
 **Estados de archivo:** `Untracked` (nuevo, sin seguimiento) → `Modified` (editado, unstaged) → `Staged` (preparado) → `Committed` (confirmado).
 
@@ -56,16 +56,16 @@
 
 ## 4. Preparar y Confirmar Cambios (Staging & Commit)
 
-| Comando | Qué hace |
-|---|---|
-| `git add <archivo1> <archivo2>` | Mueve archivos específicos de *Modified/Untracked* a *Staged*. |
-| `git add .` | Mueve **todos** los cambios (modified + untracked) al Staging Area. |
-| `git add *.html` | Agrega solo los archivos que coincidan con el patrón (ej. todos los `.html`). |
-| `git add <carpeta>/*` | Agrega todos los archivos dentro de una carpeta específica. |
-| `git add -A` (`--all`) | Agrega **todo**: nuevos, modificados **y eliminados**, en **todo el repositorio** sin importar en qué carpeta estés parado. |
-| `git add -u` (`--update`) | Agrega solo modificados y eliminados — **no** agrega archivos nuevos (untracked). Opera sobre todo el repo. |
-| `git commit -m "[mensaje]"` | Confirma lo que está en Staging Area como un nuevo commit permanente en el Repository. |
-| `git rm <archivo>` | Elimina un archivo rastreado, tanto del disco como del historial futuro. |
+| Comando                         | Qué hace                                                                                                                    |
+|:--------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
+| `git add <archivo1> <archivo2>` | Mueve archivos específicos de *Modified/Untracked* a *Staged*.                                                              |
+| `git add .`                     | Mueve **todos** los cambios (modified + untracked) al Staging Area.                                                         |
+| `git add *.html`                | Agrega solo los archivos que coincidan con el patrón (ej. todos los `.html`).                                               |
+| `git add <carpeta>/*`           | Agrega todos los archivos dentro de una carpeta específica.                                                                 |
+| `git add -A` (`--all`)          | Agrega **todo**: nuevos, modificados **y eliminados**, en **todo el repositorio** sin importar en qué carpeta estés parado. |
+| `git add -u` (`--update`)       | Agrega solo modificados y eliminados — **no** agrega archivos nuevos (untracked). Opera sobre todo el repo.                 |
+| `git commit -m "[mensaje]"`     | Confirma lo que está en Staging Area como un nuevo commit permanente en el Repository.                                      |
+| `git rm <archivo>`              | Elimina un archivo rastreado, tanto del disco como del historial futuro.                                                    |
 
 **`. ` vs `-A` vs `-u`:**
 
@@ -137,7 +137,9 @@
 | `git branch --no-merged`        | Lista ramas con commits que **aún no** se han fusionado a la rama actual.                                 |
 | `git branch -vv`                | Detalle de ramas locales: último commit y estado respecto al remoto (sincronizada, adelantada, atrasada). |
 | `git switch <rama>`             | Comando moderno para cambiar de rama (reemplaza a `checkout` para este uso).                              |
-| `git merge <rama>`              | Integra el historial de `<rama>` dentro de la rama activa actual.                                         |
+| `git merge <rama>`              | Integra el historial de `<rama>` dentro de la rama activa actual.                                         | 
+| `git checkout <rama>`           | Moverme a la rama creada  |
+| `git checkout -b <rama>` | Crear y moverme a la rama creadad |
 
 
 ### Tabla de flags — `git branch`
@@ -174,17 +176,10 @@
 
 ## 10. Reescritura de Historial (Patching)
 
-| Comando | Qué hace | ¿Reescribe historial? |
-|---|---|---|
-| `git rebase <rama>` | Reaplica los commits de tu rama actual, uno por uno, sobre la base del último commit de `<rama>` — produce un historial lineal. | Sí |
-| `git revert <commit_id>` | Crea un **nuevo commit** que anula los cambios de un commit pasado, sin borrar ni alterar la cronología original. | No — es seguro para historial compartido |
-| `git cherry-pick <commit_id>` | Copia un commit aislado de cualquier punto del historial y lo aplica como commit nuevo en tu rama actual. | No |
+| Comando                       | Qué hace                                                                                                                        | ¿Reescribe historial?                    |
+|:------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------|
+| `git rebase <rama>`           | Reaplica los commits de tu rama actual, uno por uno, sobre la base del último commit de `<rama>` — produce un historial lineal. | Sí                                       |
+| `git revert <commit_id>`      | Crea un **nuevo commit** que anula los cambios de un commit pasado, sin borrar ni alterar la cronología original.               | No — es seguro para historial compartido |
+| `git cherry-pick <commit_id>` | Copia un commit aislado de cualquier punto del historial y lo aplica como commit nuevo en tu rama actual.                       | No                                       |
 
 ---
-
-## Notas rápidas para el examen
-
-- `git status` → siempre tu primer diagnóstico antes de decidir cualquier acción.
-- `restore`/`checkout --` y `reset --hard` son los comandos con mayor riesgo de **pérdida de trabajo no confirmado** — memorízalos como el grupo "destructivo".
-- `git revert` es la alternativa **segura** a `reset` cuando el commit ya fue compartido/pusheado con el equipo (no reescribe historial ajeno).
-- `reflog` es local — no se sube al remoto ni se comparte con el equipo.
