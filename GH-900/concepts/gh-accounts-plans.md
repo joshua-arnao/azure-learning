@@ -26,3 +26,24 @@ Las organizaciones son cuentas compartidas para que los miembros de las empresas
 La cuenta empresarial le permite administrar y aplicar directivas para todas las organizaciones que pertenecen a la empresa. Cada directiva empresarial controla las opciones disponibles para una directiva en el nivel de organización.
 
 ## PLANES GITHUB
+- GitHub Free para cuentas personales y organizaciones
+- GitHub Pro para cuentas personales
+- Equipo de GitHub
+- GitHub Enterprise
+
+### GITHUB FREE
+GitHub Free ofrece las características básicas para usuarios y organizaciones. Cualquiera puede registrarse para disfrutar de la versión gratuita de GitHub.
+
+#### GITHUB FREE PARA CUENTAS PERSONALES
+Registrarse para obtener GitHub Free da una cuenta de usuario personal a un usuario nuevo. Una cuenta de usuario personal incluye repositorios públicos y privados, así como un número ilimitado de colaboradores.
+
+Con GitHub Free, una cuenta personal incluye:
+- Soporte técnico de la comunidad de GitHub 
+- Alertas de Dependabot 
+- Aplicación de la autenticación en dos fases 
+- 500 MB de almacenamiento de Paquetes de GitHub 
+- 120 horas principales de GitHub Codespaces al mes 
+- 15 GB de almacenamiento de GitHub Codespaces al mes 
+- Acciones de GitHub:
+  - 2000 minutos al mes
+  - Reglas de protección de implementación para repositorios públicos
