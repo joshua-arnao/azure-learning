@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/AZ-400/azure-devOps/abc-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AZ-400/azure-devOps/devopshelm" vcs="Git" />
   </component>
 </project>
