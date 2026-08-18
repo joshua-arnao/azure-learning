@@ -48,10 +48,10 @@ Con GitHub Free, una cuenta personal incluye:
   - 2000 minutos al mes
   - Reglas de protección de implementación para repositorios públicos
 
-#### GITHUB MOBILE Y GITHUB DESKTOP
+## GITHUB MOBILE Y GITHUB DESKTOP
 Ofrecen formas cómodas de acceder a su cuenta de GitHub desde diferentes dispositivos.
 
-##### GITHUB MOBILE
+### GITHUB MOBILE
 GitHub Mobile le ofrece una manera de realizar trabajos de alto impacto en GitHub rápidamente y desde cualquier lugar. GitHub Mobile es una forma segura de acceder a sus datos de GitHub a través de una aplicación cliente propia y confiable. GitHub Mobile está disponible para dispositivos iOS y Android.
 
 Con GitHub Mobile, puede hacer lo siguiente:
@@ -66,15 +66,15 @@ Con GitHub Mobile, puede hacer lo siguiente:
 - Verifique sus intentos de inicio de sesión en dispositivos no reconocidos.
 - Realice tareas ligeras de GitHub cuando esté fuera del escritorio.
 
-##### GITHUB DESKTOP
+### GITHUB DESKTOP
 GitHub Desktop es una aplicación de código abierto que ayuda a **simplificar el flujo de trabajo de Git**. Facilita la colaboración entre usted y su equipo y el intercambio de los procedimientos recomendados de Git y GitHub dentro de su equipo. GitHub Desktop está disponible para Windows y macOS.
 
 Estas son algunas de las muchas cosas que puedes hacer con GitHub Desktop:
 
-- Agregue repositorios a GitHub Desktop para administrar los proyectos existentes localmente.
-- Clone repositorios de GitHub para configurar rápidamente proyectos localmente y empezar a trabajar.
-- Agregue cambios a su confirmación de forma interactiva, lo que facilita la gestión y la revisión de los cambios antes de realizar la confirmación.
+- Agregue repositorios a GitHub Desktop para **administrar** los proyectos existentes localmente.
+- **Clone repositorios** de GitHub para configurar rápidamente proyectos localmente y empezar a trabajar.
+- Agregue cambios a su confirmación de forma interactiva, lo que **facilita la gestión y la revisión** de los cambios antes de realizar la confirmación.
 - Agregue rápidamente coautores a su confirmación, lo que garantiza una atribución adecuada en proyectos colaborativos.
 - Consulte las ramas con solicitudes de incorporación de cambios para revisar y colaborar en los cambios de código.
-- Vea los estados de CI para garantizar la calidad del código y simplificar la colaboración.
-- Compare las imágenes modificadas para revisar visualmente las actualizaciones en los archivos de imagen.
+- Vea los **estados de CI** para garantizar la calidad del código y simplificar la colaboración.
+- **Compare las imágenes modificadas** para revisar visualmente las actualizaciones en los archivos de imagen.
