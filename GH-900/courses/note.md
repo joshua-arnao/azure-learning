@@ -206,6 +206,8 @@ git pull → trae los cambios del remoto a tu rama local → sigues trabajando �
 | **Push** | Enviar tus commits locales al repositorio remoto. |
 | **Pull** | Traer los últimos cambios del repositorio remoto hacia tu copia local. |
 | **Pull Request (PR)** | Solicitud formal de fusionar cambios, sujeta a revisión y aprobación — usada cuando no tienes permisos de escritura directa. |
+  
+
 ## NAVIGATE GITHUB AND MANAGE REPOSITORY SETTINGS
 
 ## WORK WITH FILES IN A REPOSITORY
