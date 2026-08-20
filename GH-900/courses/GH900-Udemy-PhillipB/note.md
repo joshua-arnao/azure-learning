@@ -208,10 +208,6 @@ git pull → trae los cambios del remoto a tu rama local → sigues trabajando �
 | **Pull Request (PR)** | Solicitud formal de fusionar cambios, sujeta a revisión y aprobación — usada cuando no tienes permisos de escritura directa. |
 
 
-
-
-## NAVIGATE GITHUB AND MANAGE REPOSITORY SETTINGS
-
 ## WORK WITH FILES IN A REPOSITORY
 
 ## COLLABORATE USING GITHUB
