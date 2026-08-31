@@ -66,3 +66,9 @@ GitHub proporciona paneles independientes para comprender cómo los usuarios ado
 - **Copilot métricas de uso** muestran la telemetría de adopción y interacción.
 - Una licencia asignada no significa que el usuario esté usando activamente Copilot.
 - Una licencia asignada no significa que el usuario esté usando activamente Copilot.
+
+## CONSIDERACIONES ADICIONALES
+
+- **GitHub Codespaces**: conlleva cargos adicionales en función del almacenamiento y el tiempo de proceso, en función del plan.
+- **Alertas de facturación**: los administradores pueden recibir alertas al aproximarse a los límites de gasto configurados a través de la interfaz de usuario de GitHub y las notificaciones por correo electrónico.
+- **Copilot precios y asignaciones**: los precios de Copilot, las asignaciones de crédito de IA incluidas y las características de medicón admitidas admi
