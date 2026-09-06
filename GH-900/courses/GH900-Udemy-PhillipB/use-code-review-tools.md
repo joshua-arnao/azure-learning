@@ -35,7 +35,8 @@ Permite ver **quién modificó cada línea** de un archivo y **en qué commit**,
 | **Pro**  | **$10/mes** o **$100/año** | Ilimitado                                                 | Hasta **300 premium requests**   | Acceso a agentes de revisión de código y codificación |
 | **Pro+** | **$39/mes** o **$390/año** | Ilimitado                                                 | Hasta **1,500 premium requests** | Acceso a **más modelos**                              |
 
-> **Dato importante de examen:** el plan **Pro es gratuito** para: **estudiantes, profesores, instituciones educativas, y mantenedores de proyectos open source populares.**
+> **Dato importante de examen:** el plan **Pro es gratui
+> o** para: **estudiantes, profesores, instituciones educativas, y mantenedores de proyectos open source populares.**
 
 
 ## Punto clave
