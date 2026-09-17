@@ -1,0 +1,13 @@
+# AZURE POLICY
+Herramienta principal de gobernanz, que permite aplicar estandares organizacionales y evaluar cumplimiento, evita configuraciones incorrectas y ofrece un panel de cumplimiento con visbilidad global
+
+- Aplciar estándare de la organización y a evaluar el cumplimiento a escala.
+
+## Niveles de Gobernanza en Azure
+- 1. Grupo raiz del Tenant: Contiene los grupos de adminsitración y suscripciones.
+- 2. Grupos de adminsitación: 
+	- Organizan suscripciones en jerarquías lógicas.
+	- Hasta 6 niveles de profundidad debajo del root.
+- 3. Suscripciones: Límite adminsitrativo y de facturación.
+- 4. Grupos de recursos: Permite gestionar ciclo de vida y permisos.
+- 5. Recursos: Heredan políticas desde niveles superiores.
