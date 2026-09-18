@@ -9,9 +9,12 @@ Herrmaienta de Azure que permite **monitorear**, **controlar** y **optimizar** l
 - Comparativa de precios
 - Vistas personalizadas creando darshboard con lo que nos interesa
 
-## Definir presupuestos
+## Definir presupuestos - budgets
 Se permite establecer límites de gasto en recursos de Azure y recibir alertas cuando estos límites estén cerca de alcanzarse o se hayan excedido
+
 
 ## Facturación
 - Ofrece un **desglose detallado de lo gastos** incurridos en los servicios de Azure
 
+## Tags en recursos
+Son pares nombre-valor que permite categorizar los recursos y ver una facturación consolidada
