@@ -1,0 +1,17 @@
+# AZURE COST MANAGMENT
+Herrmaienta de Azure que permite **monitorear**, **controlar** y **optimizar** los costos de los recursos consumidos dentro de Azure
+
+## Qué podemos hacer?
+- Asignar costes
+- Exportación de datos de los costes
+- Crear políticas de cosres
+- Informes de ineficiencias, por recuros subutilizados o no utilizados
+- Comparativa de precios
+- Vistas personalizadas creando darshboard con lo que nos interesa
+
+## Definir presupuestos
+Se permite establecer límites de gasto en recursos de Azure y recibir alertas cuando estos límites estén cerca de alcanzarse o se hayan excedido
+
+## Facturación
+- Ofrece un **desglose detallado de lo gastos** incurridos en los servicios de Azure
+
