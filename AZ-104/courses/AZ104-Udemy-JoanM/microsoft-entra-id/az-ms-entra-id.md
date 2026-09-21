@@ -5,6 +5,12 @@ Es un servicio de **gestión de identidades en la nube** ofecido por Miscrosoft
 
 Esta construido para trabajar en la nube y ofrece una serie de funcionalidades y características dirigidas a aplicaciones web y móviles.
 
+- Es un administrador de identididades **unificado** de diferentes aplicaicones/serviicios. 
+
+Centraliza el manejo de identidades
+
+> SSO Single sign on: cuando se hace el proceso de autenticación te entrega un token para ser validado con aplicaicones de microsoft
+
 ## Características clave
 - Gestión de identidades y acceso
 - Integración de aplicaciones
