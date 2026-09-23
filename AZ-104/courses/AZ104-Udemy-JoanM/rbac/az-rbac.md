@@ -39,3 +39,10 @@ Es la entidad a la que se le asigna un rol:
 
 > Important: Los ámbitos son jerárquicos si das acceso en un nievel superior, se hereda a los niveles inferiores.
 
+### Asignación de roles en Azure RBAC
+Proceso de unir:
+- Entidad de seguridad
+- Definción del rol
+- Ámbito
+
+> Aplicar el principio del mínimo privilegio
